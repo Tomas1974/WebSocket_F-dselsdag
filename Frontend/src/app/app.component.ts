@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import {UtilitiesService} from "./utilities.service";
+import {FormControl} from "@angular/forms";
+import {BaseDto} from "../BaseDto";
 
 @Component({
   selector: 'app-root',
@@ -78,7 +80,21 @@ sort: boolean=true;
 icon: string="";
 
 
-  constructor(private utilitiesService: UtilitiesService) {}
+
+  ws: WebSocket = new WebSocket("ws://localhost:8181")
+
+
+
+
+  constructor(private utilitiesService: UtilitiesService) {
+    this.ws.onmessage = message => {
+      const messageFromServer = JSON.parse(message.data) as BaseDto<any>;
+      // @ts-ignore
+      this[messageFromServer.eventType].call(this, messageFromServer);
+
+  }
+  }
+
 
   async slet(text: string) {
     let confirm=await this.utilitiesService.confirmDelete()
