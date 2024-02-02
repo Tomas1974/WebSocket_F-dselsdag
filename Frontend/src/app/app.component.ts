@@ -6,43 +6,41 @@ import {BaseDto, ClientWantsToGetAllDeltagereDto, ClientWantsToGetDeltagereDto} 
 @Component({
   selector: 'app-root',
   template: `
-<ion-app>
-    <ion-col>
-      <ion-row>
-        <img src="../assets/Fødselsdag.gif" alt="Animated GIF">
 
-        <H1 style="margin-left: 20px;">Tilmeldingsliste Festen</H1>
-      </ion-row>
-    </ion-col>
+    <ion-content scrollY="true">
 
-    <br>
-    <br>
-    <br>
-  <br>&nbsp;
-    <div style="overflow-y: scroll">
-   
-      <ion-grid style="overflow: scroll;">
+      <ion-col>
+        <ion-row>
+          <img src="../assets/Fødselsdag.gif" alt="Animated GIF" >
+
+          <H1 style="margin-left: 20px;">Tilmeldingsliste Festen</H1>
+        </ion-row>
+      </ion-col>
+
+      <br>
+      <br>
+      <br>
+
+      <ion-grid>
         <ion-row>
           <ion-col size="3">
             <ion-title>Deltagere</ion-title>
-            <ion-card>
+            <ion-card >
 
               <div *ngFor="let text of textAray">
 
-                <ion-card-content>
+                <ion-card-content >
 
-                  <ion-row style="border-bottom: 1px solid black; /* Add a solid black border at the bottom of each row */
-}">
+                  <ion-row style="border-bottom: 1px solid black; }">
 
-                    <ion-col>
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{text}} &nbsp;&nbsp;&nbsp;{{text}}
+                    <ion-col >
+                      {{text}}
                     </ion-col>
-                    <ion-col>
+                    <ion-col >
                       <p style="color: blue; text-decoration: underline; cursor: pointer;" (click)="slet(text)">Slet</p>
                     </ion-col>
-                    <ion-col>
-                      <p style="color: blue; text-decoration: underline; cursor: pointer;" (click)="opdater(text)">
-                        Opdater</p>
+                    <ion-col >
+                      <p style="color: blue; text-decoration: underline; cursor: pointer;" (click)="opdater(text)">Opdater</p>
                     </ion-col>
 
                   </ion-row>
@@ -58,25 +56,21 @@ import {BaseDto, ClientWantsToGetAllDeltagereDto, ClientWantsToGetDeltagereDto} 
             <ion-row>
 
 
-              <ion-button (click)="nyTekst()">
+              <ion-button  (click)="nyTekst()">
                 <ion-icon name="person-add-outline" slot="start"></ion-icon>
-                Ny Deltager
-              </ion-button>
+                Ny Deltager</ion-button>
 
             </ion-row>
             <ion-row>
               <ion-button (click)="sorteralfabetisk()">
                 <ion-icon name="{{icon}}" slot="start"></ion-icon>
-                Sorter Alfabetisk
-              </ion-button>
+                Sorter Alfabetisk</ion-button>
             </ion-row>
 
           </ion-col>
         </ion-row>
       </ion-grid>
-    </div>
-</ion-app>
-
+    </ion-content>
   `,
 
 })
