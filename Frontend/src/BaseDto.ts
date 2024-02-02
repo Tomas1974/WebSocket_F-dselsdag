@@ -11,3 +11,13 @@ export class BaseDto<T> {
 export class ServerEchosClientDto extends BaseDto<ServerEchosClientDto> {
   echoValue?: string;
 }
+
+
+
+export class ClientWantsToGetDeltagereDto extends BaseDto<ClientWantsToGetDeltagereDto> {
+  deltager?: string[];
+}
+
+export class ClientWantsToGetAllDeltagereDto extends BaseDto<ClientWantsToGetAllDeltagereDto> {
+  deltager?: string[];
+}
