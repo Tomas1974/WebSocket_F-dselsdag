@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tomas\\Desktop\\Websocket_fødselsdag2\\service\\service.csproj": {}
+    "C:\\Users\\tomas\\Desktop\\Github\\WebSocket_F-dselsdag\\service\\service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tomas\\Desktop\\Websocket_fødselsdag2\\service\\service.csproj": {
+    "C:\\Users\\tomas\\Desktop\\Github\\WebSocket_F-dselsdag\\service\\service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tomas\\Desktop\\Websocket_fødselsdag2\\service\\service.csproj",
+        "projectUniqueName": "C:\\Users\\tomas\\Desktop\\Github\\WebSocket_F-dselsdag\\service\\service.csproj",
         "projectName": "service",
-        "projectPath": "C:\\Users\\tomas\\Desktop\\Websocket_fødselsdag2\\service\\service.csproj",
+        "projectPath": "C:\\Users\\tomas\\Desktop\\Github\\WebSocket_F-dselsdag\\service\\service.csproj",
         "packagesPath": "C:\\Users\\tomas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tomas\\Desktop\\Websocket_fødselsdag2\\service\\obj\\",
+        "outputPath": "C:\\Users\\tomas\\Desktop\\Github\\WebSocket_F-dselsdag\\service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tomas\\AppData\\Roaming\\NuGet\\NuGet.Config"

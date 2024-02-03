@@ -197,16 +197,17 @@ icon: string="";
 
 
   TilføjDeltagere(dto: ClientWantsToGetAllDeltagereDto): void
+
+{
+  try
   {
     this.textAray=dto.deltager!
-
   }
+  catch (e)
+  {
+    console.log(e)
+  }
+}
 
-
-
-
-
-
-
-
+  
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5ZbR6vBmmxr8AvQpgk9nqr8hUkeM1BJiLeEt6wmp8boew0GgFZ502u4GCJXI0q6ulOQA6E6SvTt4IInkfHePVQ==",
+  "dgSpecHash": "l1SXKHuF671notEGCrvegAygjktVUHDQ6mh2a67NcKzS0xG9bmZJ+VPjl+ynlP08rOp3BD9VNQkKR7rJv04tAA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tomas\\Desktop\\Websocket_fødselsdag2\\service\\service.csproj",
+  "projectFilePath": "C:\\Users\\tomas\\Desktop\\Github\\WebSocket_F-dselsdag\\service\\service.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
