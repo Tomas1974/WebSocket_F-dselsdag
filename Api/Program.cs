@@ -1,5 +1,6 @@
 using System.Reflection;
 using System.Text.Json;
+using System.Xml;
 using Fleck;
 using lib;
 using Service1.Service;
@@ -47,17 +48,20 @@ server.Start(ws =>
 
         wsConenctions.Add(ws);
     };
-    ws.OnMessage = message =>
+    ws.OnMessage = async message =>
     {
         // evaluate whether or not message.eventType == 
         // trigger event handler
         try
         {
-            app.InvokeClientEventHandler(clientEventHandlers, ws, message);
+           await app.InvokeClientEventHandler(clientEventHandlers, ws, message);
 
         }
         catch (Exception e)
         {
+
+
+            Console.WriteLine(e.Message);
             // your exception handling here
         }
     };

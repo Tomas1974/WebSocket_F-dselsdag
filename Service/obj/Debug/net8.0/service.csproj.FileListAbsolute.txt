@@ -9,3 +9,15 @@ C:\Users\tomas\Desktop\Websocket_fødselsdag2\service\obj\Debug\net8.0\service.d
 C:\Users\tomas\Desktop\Websocket_fødselsdag2\service\obj\Debug\net8.0\refint\service.dll
 C:\Users\tomas\Desktop\Websocket_fødselsdag2\service\obj\Debug\net8.0\service.pdb
 C:\Users\tomas\Desktop\Websocket_fødselsdag2\service\obj\Debug\net8.0\ref\service.dll
+C:\Users\tomas\OneDrive\Desktop\Fødselsdag\WebSocket_F-dselsdag\service\bin\Debug\net8.0\service.deps.json
+C:\Users\tomas\OneDrive\Desktop\Fødselsdag\WebSocket_F-dselsdag\service\bin\Debug\net8.0\service.dll
+C:\Users\tomas\OneDrive\Desktop\Fødselsdag\WebSocket_F-dselsdag\service\bin\Debug\net8.0\service.pdb
+C:\Users\tomas\OneDrive\Desktop\Fødselsdag\WebSocket_F-dselsdag\service\obj\Debug\net8.0\service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomas\OneDrive\Desktop\Fødselsdag\WebSocket_F-dselsdag\service\obj\Debug\net8.0\service.AssemblyInfoInputs.cache
+C:\Users\tomas\OneDrive\Desktop\Fødselsdag\WebSocket_F-dselsdag\service\obj\Debug\net8.0\service.AssemblyInfo.cs
+C:\Users\tomas\OneDrive\Desktop\Fødselsdag\WebSocket_F-dselsdag\service\obj\Debug\net8.0\service.csproj.CoreCompileInputs.cache
+C:\Users\tomas\OneDrive\Desktop\Fødselsdag\WebSocket_F-dselsdag\service\obj\Debug\net8.0\service.sourcelink.json
+C:\Users\tomas\OneDrive\Desktop\Fødselsdag\WebSocket_F-dselsdag\service\obj\Debug\net8.0\service.dll
+C:\Users\tomas\OneDrive\Desktop\Fødselsdag\WebSocket_F-dselsdag\service\obj\Debug\net8.0\refint\service.dll
+C:\Users\tomas\OneDrive\Desktop\Fødselsdag\WebSocket_F-dselsdag\service\obj\Debug\net8.0\service.pdb
+C:\Users\tomas\OneDrive\Desktop\Fødselsdag\WebSocket_F-dselsdag\service\obj\Debug\net8.0\ref\service.dll
