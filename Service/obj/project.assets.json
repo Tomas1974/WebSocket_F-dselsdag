@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tomas\\OneDrive\\Desktop\\Fødselsdag\\WebSocket_F-dselsdag\\service\\service.csproj",
+      "projectUniqueName": "C:\\Users\\tomas\\Desktop\\Mat2\\WebSocket_F-dselsdag\\service\\service.csproj",
       "projectName": "service",
-      "projectPath": "C:\\Users\\tomas\\OneDrive\\Desktop\\Fødselsdag\\WebSocket_F-dselsdag\\service\\service.csproj",
+      "projectPath": "C:\\Users\\tomas\\Desktop\\Mat2\\WebSocket_F-dselsdag\\service\\service.csproj",
       "packagesPath": "C:\\Users\\tomas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tomas\\OneDrive\\Desktop\\Fødselsdag\\WebSocket_F-dselsdag\\service\\obj\\",
+      "outputPath": "C:\\Users\\tomas\\Desktop\\Mat2\\WebSocket_F-dselsdag\\service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tomas\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
